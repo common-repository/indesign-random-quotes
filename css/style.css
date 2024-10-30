@@ -1,0 +1,13 @@
+.idquotes-warp {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    font-size: 1rem;
+}
+.idquotes-donner-name {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: right;
+}
+.idquotes-donner-name::before {
+    content: '- ';
+}
